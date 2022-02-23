@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+color: white;
+background-color: hsl(233, 47%, 7%);
+align-content: center;
+justify-content: center;
+font: 15px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    height: 1px;
+    width: 1000px;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 350px;
+    padding-bottom: 200px;
+    max-width: 1440px;
+}
+.insights{
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 60px;
+font-family: 'Inter', sans-serif;
+text-align: left;
+background-color: hsl(244, 38%, 16%) ;
+}
+.discover{
+padding-left: 40px;
+padding-right: 100px;
+padding-top: 20px;
+text-align: left;
+font-family: 'Lexend Deca', sans-serif;
+background-color: hsl(244, 38%, 16%) ;
+}
+.tabular{
+display: grid;
+font-family: 'Inter', sans-serif;
+padding-top: 100px;
+text-align: left;
+padding-left: 40px;
+background-color: hsl(244, 38%, 16%) ;
+}
+.grid-item{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: hsl(244, 38%, 16%) ;
+}
+
+.image{
+    grid-column: 2;
+    grid-row: 1;
+    filter: sepia(30%);
+    opacity: 0.5;
+    height: 1.1px;
+    background: hsl(277, 64%, 61%),;
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.three{
+    grid-column: 3;
+    grid-row: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.alpha{
+    grid-column: 1;
+    grid-row: 2;
+    font-family: 'Lexend Deca' sans-serif;
+}
+.beta{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Lexend Deca' sans-serif;
+}
+.gamma{
+    grid-column: 3;
+    grid-row: 2;
+    font-family: 'Lexend Deca' sans-serif;
+}
+@media only screen and (max-width:375) {
+    body{
+        color: white;
+        background-color: hsl(233, 47%, 7%);
+        align-content: center;
+        justify-content: center;
+        }
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .grid-item{
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        background-color: hsl(244, 38%, 16%) ;
+    }
+    img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .insight{
+        grid-column: 1;
+        grid-row: 2;
+        align-content: center;
+    }
+    .discover{
+        grid-column: 1;
+        grid-row: 3;
+        align-content: center;
+    }
+    .one{
+        grid-column: 1;
+        grid-row: 4;
+        font-family: 'Inter', sans-serif;
+    }
+    .alpha{
+        grid-column: 1;
+        grid-row: 4.5;
+        font-family: 'Lexend Deca' sans-serif;
+    }
+    .two{
+        grid-column: 1;
+        grid-row: 5;
+        font-family: 'Inter', sans-serif;
+    }
+    .beta{
+        grid-column: 1;
+        grid-row: 5.5;
+        font-family: 'Lexend Deca' sans-serif;
+    }
+    .three{
+        grid-column: 1;
+        grid-row: 6;
+        font-family: 'Inter', sans-serif;
+    }
+    .gamma{
+        grid-column: 1;
+        grid-row: 6.5;
+        font-family: 'Lexend Deca' sans-serif;
+    }
+}
